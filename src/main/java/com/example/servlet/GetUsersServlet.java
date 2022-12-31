@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+@WebServlet("/users")
 public class GetUsersServlet extends HttpServlet {
 
     private final Warehouse warehouse = Warehouse.getInstance();
